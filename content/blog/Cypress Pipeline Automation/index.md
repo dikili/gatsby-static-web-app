@@ -2,7 +2,7 @@
 title: Cypress Test Pipeline Automation Considerations
 date: 2021-05-22 22:59:00 +0300
 description: # Add post description (optional)
-img: ./software.jpg # Add image post (optional)
+img: ./cypress-cover.jpg # Add image post (optional)
 tags: [] # add tag
 ---
 
