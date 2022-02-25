@@ -2,7 +2,7 @@
 title: Single Page Application Testing
 date: 2022-02-27 19:40:00 +0300
 description: # Add post description (optional)
-img: ./SinglePage.png # Add image post (optional)
+img: ./SinglePage.PNG # Add image post (optional)
 tags: [] # add tag
 ---
 
@@ -81,6 +81,7 @@ it('should add an unexpired event', () => {
 As you can see on the above test, we managed to find an issue with our class,  expect(!added).toBeTruthy(); has now failed, because our business logic wants us to ensure expire events can not be added and the second event ``` {'lisbon',true}``` our class has added that although it expired thus this has proven to be a very useful unit test.
 
 sky is the limit for unit testing as in other types of testing but having reasonable amount of with the most ROI is what makes sense for unit testing SPAs.Few more test scenerios can be found below but of course there can be more.
+
 --------
 3) add an event without any location
 4) add events for cities in africa 
