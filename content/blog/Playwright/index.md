@@ -10,21 +10,23 @@ tags: [] # add tag
 
 Playwright has been the latest tool on the market to be offered for writing automation tests, however question I can not keep to ask myself is; we have c# selenium, java selenium, xx selenium, webdriverio, cypress and now Playwright, why would I even bother to think of analysing , assessing and working with another tool anyways? 
 
-This article will be about my experience with the product so not a tutorial or a technical implementation guide alot , if you are looking for this pls visit https://playwright.dev
+This article will be about my experience with the product so not a tutorial or a technical implementation guide , if you are looking for this pls visit https://playwright.dev
 
 ## What is diffentiating Playwright from the rest
 
-Well, this is the critical question to answer in my mind, because for me it all came down to it. so let me talk about few things I observed in the automation tool and tried to summarize as below;
+Well, this is the critical question to answer in my mind, because for me it all came down to it. so let me talk about few things I observed in the automation tool from my experience.
 
 ### API names makes more sense and feels natural
 
-In the past frameworks one issue was that api names or the way to call them did not really feel very natural. 
+In the past frameworks' one common issue was that api names or the way to call them did not really feel very natural. 
 
-e.g cy.visit('xxx') - well this is kind of understandable but when I look at this , it just feels more natural and explains what it does page.goto('xxx');
-
+e.g cy.visit('xxx') - well this is kind of understandable but when I look at this , it just feels more natural and explains what it does by using this wording as in playwright 
+```
+page.goto('xxx');
+```
 or calling page.locator('text:xxx'); feels much more natural and easier to do (developer friendly) and looks for the element with the 'xxx' text in it , rather than going through all different kinds of selectors and try to work with it. 
 
-another example could be simply, .press('Enter') , it writes simple , reads simple, executes fast (thank you Playwright NodeJS!)
+another example could be simply, .press('Enter') , it writes simple , reads simple, executes fast (thank you Playwright NodeJS!) and guess what , dont need to find the ASCII code of 'Enter' :)
 
 page.click('selector'); also makes alot of sense and is available in playwright. we are not forced to first use the locator and then from that locator grab the element and then apply a click, simply telling the framework i want the page to click, and pass a parameter ,plain and simple!
 
