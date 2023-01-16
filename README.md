@@ -48,5 +48,6 @@ Inspired by [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll).
 
     Edit `gatsby.config.js` to update site metadata.
 
+
     Add blog posts in markdown in `content/blog`. Example blog posts have been provided.
     4) for deloyments to dikili , go here: https://github.com/dikili/gatsby-static-web-app/actions to check the deployment status.
